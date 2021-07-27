@@ -1,7 +1,7 @@
 let resumeData = {
     "name": "Christine Osmak",
     "role": "Web Developer",
-    "linkedinId":"https://www.linkedin.com/in/christine-osmak-42808376/",
+    "linkedinId":"42808376",
     "skypeid": "Your skypeid",
     "socialLinks":[
         {
@@ -22,74 +22,29 @@ let resumeData = {
       ],
     "aboutme":"An aspiring Front-End Web Developer with experience in HTML, CSS, Javascript, Bootstrap, React.js and Node.js.",
     "address":"NJ & NYC",
-    "education":[
-      {
-        "UniversityName":"Rutgers University",
-        "specialization":"Full Stacked Web Developer",
-        "MonthOfPassing":"July",
-        "YearOfPassing":"2021",
-        "Achievements":"Certification"
-      },
-      {
-        "UniversityName":"Fashion Institute of Tehnology",
-        "specialization":"BS in Fashion Merchandising and Management",
-        "MonthOfPassing":"Dec",
-        "YearOfPassing":"2014",
-        "Achievements":"Graduate"
-      }
-    ],
-    "work":[
-      {
-        "CompanyName":"Commercial Seating Products",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      },
-      {
-        "skillname":"Node.js"
-      },
-    ],
+    
     "portfolio":[
       {
         "name":"Bet-Full Stack",
         "description":"A web app that brings betting information on European Football (Premiere League) to an American audience",
-        "imgurl":"public/images/Bet-Full.png"
+        "imgurl":"../images/Bet-Full.png"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Workday Schedule",
+        "description":"Implementing my complex Javascript/Jquery code with my basic HTML and CSS is able to give me an opportunity to utilize a well functioning and clear Work Day Schedule.",
+        "imgurl":"../images/workday.png"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Falvor Saver",
+        "description":"A customizable meal planning app",  
+        "imgurl":"../images/Flavor Saver.png"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Password Generator",
+        "description":"This is my first offical random password generator using Javascript code. Once you access the site you are first able to choose how many characters to choose your password between 8 to 128 characters. The following steps are whether you would like to include numbers, special characters, lowercase, and uppercase charaters as well. Once you entered and clicked through these requirements, you're then able to copy your randomly generated password.",
+        "imgurl":"../images/Password.png"
       }
+      
     ],
   }
   
