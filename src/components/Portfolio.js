@@ -17,7 +17,7 @@ export default class Porfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
-                    <img src="images/Bet-Full.png" style={{ Width: "600px", height: "200px" }}alt=""/>
+                    <img src="images/Portfolio.jpg" style={{ Width: "600px", height: "200px" }}alt=""/>
                     
                       <div className="overlay" >
                         <div className="portfolio-item-meta">

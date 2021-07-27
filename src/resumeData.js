@@ -27,7 +27,7 @@ let resumeData = {
       {
         "name":"Bet-Full Stack",
         "description":"A web app that brings betting information on European Football (Premiere League) to an American audience",
-        "imgurl":"../images/Bet-Full.png"
+        "imgurl":""
       },
       {
         "name":"Workday Schedule",
