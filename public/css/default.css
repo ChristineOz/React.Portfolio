@@ -85,7 +85,7 @@ e. Others
     word-wrap: break-word;
  }
  
- blockquote, q { quotes: &#8220 &#8220; }
+ blockquote, q { quotes: #8220 #8220; }
  
  blockquote:before, blockquote:after,
  q:before, q:after {
@@ -167,7 +167,7 @@ e. Others
  h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
  h5 { font-size: 18px; line-height: 30px; }
  h6 { font-size: 14px; line-height: 30px; }
- .subheader { }
+
  
  p { margin: 0 0 30px 0; }
  p img { margin: 0; }
@@ -311,8 +311,7 @@ e. Others
  ul ul li, ul ol li,
  ol ol li, ol ul li { margin-bottom: 6px; }
  li { line-height: 18px; margin-bottom: 12px; }
- ul.large li { }
- li p { }
+
  
  /* ---------------------------------------------------------------------
  /*  Stats Tab Markup
@@ -440,13 +439,13 @@ e. Others
     background-color: #E6E8EB;
      color: #A9ADB2;
  }
- .pagination .prev, .pagination .next {}
+
  
  /*  5. Images  --------------------------------------------------------- */
  
  img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
  }
  img.pull-right { margin: 12px 0px 0px 18px; }
  img.pull-left { margin: 12px 18px 0px 0px; }
@@ -535,7 +534,6 @@ e. Others
     margin: 0 0 24px 0;
     border: 0;
     outline: none;
-    vertical-align: middle;
     min-width: 225px;
      max-width: 100%;
     font-size: 15px;
