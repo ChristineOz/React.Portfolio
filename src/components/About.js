@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
 
 
@@ -44,9 +43,9 @@ export default class About extends Component {
                     <br></br>
                     <span>{resumeData.website}</span>
                     <br></br>
-                    <SocialIcon url="https://github.com/ChristineOz" />
+                    <SocialIcon  url="mailto: christineosmak@gmail.com" />
+                    <SocialIcon  url="https://github.com/ChristineOz" />
                     <SocialIcon url="https://www.linkedin.com/in/christine-osmak-42808376/" />
-                    <SocialIcon url="https://www.facebook.com/christine.osmak" />
        					   </p>
                   </div>
                </div>

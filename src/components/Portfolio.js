@@ -1,6 +1,5 @@
-
 import React, { Component } from 'react';
-import "../style.css"
+
 
 export default class Porfolio extends Component {
   render() {
@@ -9,31 +8,29 @@ export default class Porfolio extends Component {
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Work.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <h1 style={{ color:"yellow", fontSize:"35px"}}>Check Out Some of My Work.</h1>
+          <div id="portfolio-wrapper" className="bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
-                    <img src="images/Portfolio.jpg" style={{ Width: "600px", height: "200px" }}alt=""/>
-                    
-                      <div className="overlay" >
+                      <img src={`${item.imgurl}`} className="item-img"style={{ Width: "600px", height: "200px" }}/>
+                      <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+                          <h5 style={{ color:"black"}}>{item.name}</h5>
+                          <p style={{ color:"black"}}>{item.description}</p>
                         </div>
                       </div>
                     </a>
                   </div>
                 </div>
-                
-                
               )
             })
           }
           </div>
+          
         </div>
       </div>
   </section>
