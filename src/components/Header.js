@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
+import ReactPlayer from 'react-player';
+import headerVideo from '../../src/headerVideo.mp4';
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
       
-      <header id="home">
+        <ReactPlayer
+      url={headerVideo}
+      playing
+      loop
+      muted
+      width="100%"
+      height="100%"
+      background={headerVideo}
+    /> 
+    <header id="home" id="-wrap"> 
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -17,9 +28,7 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
-
-         <div className="row banner">
-            <div className="banner-text">
+         <div className="banner-text">
                <h1 className="responsive-headline">I'm {resumeData.name}</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}> A {resumeData.role}.{resumeData.roleDescription}
                </h3>
@@ -37,14 +46,16 @@ export default class Header extends Component {
                   }
                </ul>
             </div>
-         </div>
-
-         <p className="scrolldown">
+       
+       <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
          </p>
-
+         
       </header>
+    
       </React.Fragment>
+     
     );
   }
 }
+
