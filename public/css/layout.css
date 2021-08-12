@@ -114,7 +114,7 @@
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #175e9c;
    margin-bottom: 18px;
    margin-top: 9px;
    
@@ -148,22 +148,7 @@
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
-   background:url(../images/Portfoliobackgrd.jpg) fixed center;
-   background-size: cover ;
-   padding-top: 90px;
-   padding-bottom: 60px;
-   
-  
-}
-#portfolio h1 {
-   font: 15px 24px 'opensans-semibold', sans-serif;
-   text-transform:uppercase;
-   letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
-   color:rgb(161, 16, 16);
-}
+
 
 /* Portfolio Content */
 .work-wrapper {
@@ -208,8 +193,12 @@
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   opacity: 65%
- }
+ opacity:inherit
+   
+}
+
+
+
  
    .content {
      font-family: "Open Sans";
@@ -222,15 +211,18 @@
      
    }
      h1 {
-       font-size: 30px;
-       color: rgb(184, 187, 33);
-       text-shadow: 0px 2px 5px rgba(0, 0, 0, .8);
+       font-size: 20px;
+       color:rgb(10, 245, 88)
+
+      
+       
      }
      p {
-       font-size: 25px;
-       color: white;
+       font-size: 18px;
+       color: rgb(10, 245, 88);
+       text-decoration-color: #11ABB0;
        margin-bottom: 20px;
-       text-shadow: 0px 2px 5px rgba(0, 0, 0, .8);
+       text-shadow: 0px 2px 5px rgba(0, 0, 0, .1);
       
      }
  
@@ -241,10 +233,15 @@
        text-decoration: none;
      }
      .content:hover {
-       opacity: 1;
+       opacity: 5;
        transform: translate(0, 0px); 
-      
-     }
+       
+      }
+
+      .imgUrl:hover {
+         opacity: 5%
+      }
+    
 
     
    
