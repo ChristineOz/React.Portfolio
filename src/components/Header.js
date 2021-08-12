@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import headerVideo from '../../src/headerVideo.mp4';
+import '../../src/style.css';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -29,8 +31,8 @@ export default class Header extends Component {
             </ul>
          </nav>
          <div className="banner-text">
-               <h1 className="responsive-headline">I'm {resumeData.name}</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}> A {resumeData.role}.{resumeData.roleDescription}
+               <h1 className="responsive-headline" style={{textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>I'm {resumeData.name}</h1>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif ', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}> A {resumeData.role}.{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">

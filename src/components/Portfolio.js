@@ -1,39 +1,39 @@
-import React, { Component } from 'react';
+import React from "react"
+import Card from "./Project.Card"
+import Fade from "react-reveal/Fade"
 
+import data from "../resumeData"
 
-export default class Porfolio extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1 style={{ color:"yellow", fontSize:"35px"}}>Check Out Some of My Work.</h1>
-          <div id="portfolio-wrapper" className="bgrid-thirds cf">
-          {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"style={{ Width: "600px", height: "200px" }}/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5 style={{ color:"black"}}>{item.name}</h5>
-                          <p style={{ color:"black"}}>{item.description}</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              )
-            })
-          }
+const Work = () => {
+  return (
+    <div className="section" id="work">
+      <div className="container">
+        <div className="work-wrapper">
+          <Fade bottom>
+            <h1 style={{ letterSpacing: '-2px',
+                               margin: '0 auto 18px auto',
+                              textShadow: '1px 3px 6px rgba(0, 0, 0, .8)',
+                              color:'white',
+                              fontSize:'40px'}}>Work</h1>
+          </Fade>
+
+          <div className="grid">
+            <Fade bottom cascade style={{fontSize:'10px'}}>
+              {data.projects.map((project, index) => (
+                <Card style={{fontSize:'10px'}}
+                  key={index}
+                  heading={project.title}
+                  paragraph={project.para}
+                  imgUrl={project.imageSrc}
+                  projectLink={project.url}
+                ></Card>
+              ))}
+            </Fade>
           </div>
-          
         </div>
       </div>
-  </section>
-        );
-  }
+    </div>
+  )
 }
+
+export default Work

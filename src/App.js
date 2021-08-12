@@ -17,6 +17,13 @@ class App extends Component {
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
     );
   }
 }
