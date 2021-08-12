@@ -18,7 +18,7 @@ class App extends Component {
         <Footer resumeData={resumeData}/>
       </div>
 
-  }
+    }
 }
 
 export default App;
