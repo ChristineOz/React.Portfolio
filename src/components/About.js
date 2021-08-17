@@ -11,7 +11,7 @@ export default class About extends Component {
 
 
 
-      <section id="about"style={{borderColor:'black',borderBottomWidth:25,borderTopWidth:25}}>
+      <section className="mobile-btn" id="about"style={{borderColor:'black',borderBottomWidth:25,borderTopWidth:25}}>
          <div className="row">
 
             <div className="three columns">

@@ -6,7 +6,7 @@ import data from "../resumeData"
 
 const Work = () => {
   return (
-    <div className="section" id="work">
+    <div className="mobile-btn" className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>

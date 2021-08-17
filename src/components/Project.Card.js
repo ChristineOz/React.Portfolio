@@ -2,7 +2,7 @@ import React from "react"
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
-    <div
+    <div className="mobile-btn"
       className="card"
       style={{
         backgroundImage:
