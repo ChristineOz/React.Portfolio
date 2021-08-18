@@ -7,6 +7,7 @@ import data from "../resumeData"
 const Work = () => {
   return (
     <div className="mobile-btn" className="section" id="work">
+      <div className="twelve columns collapsed"></div>
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>

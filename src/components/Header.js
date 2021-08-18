@@ -30,7 +30,7 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
-         <div className="mobile-btn" className="banner-text">
+         <div className="banner-text">
                <h1 className="responsive-headline" style={{textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>I'm {resumeData.name}</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif ', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}> A {resumeData.role}.{resumeData.roleDescription}
                </h3>

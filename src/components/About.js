@@ -11,13 +11,12 @@ export default class About extends Component {
 
 
 
-      <section className="mobile-btn" id="about"style={{borderColor:'black',borderBottomWidth:25,borderTopWidth:25}}>
+      <section id="about">
          <div className="row">
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/Christine.jpg"
-               style={{ maxWidth: "125%", height: "auto", position: "relative", right:"150px", }} alt=""/>
+               <img className="profile-pic"  src="images/Christine.jpg" alt=""/>
 
             </div>
 
