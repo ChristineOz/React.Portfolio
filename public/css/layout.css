@@ -77,8 +77,9 @@
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background:url(../images/Resumebackgrd.jpg)fixed center;
+   background:url(../images/Resumebackgrd.jpg)center center;
    background-size: cover;
+   background-attachment: fixed;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -156,8 +157,9 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-    background:url(../images/Portfoliobackgrd.jpg) fixed center;
+    background:url(../images/Portfoliobackgrd.jpg) center center;
     background-position: cover;
+    background-attachment: fixed;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -171,15 +173,8 @@
      grid-template-columns: repeat(3, 1fr);
      grid-gap: 10px;
    }
-     @include media (">=phone", "<lgphone") {
-       grid-template-columns: 1fr;
-     }
-     @include media(">=lgphone", "<tablet") {
-       grid-template-columns: 1fr;
-     }
-     @include media(">=tablet", "<desktop") {
-       grid-template-columns: 1fr 1fr;
-     }
+   
+   
    
  
 
@@ -419,8 +414,9 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background:url(../images/Footer.jpg) fixed center ;
+   background:url(../images/Footer.jpg) center center ;
    background-size:cover;
+   background-attachment: fixed;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #44879b;

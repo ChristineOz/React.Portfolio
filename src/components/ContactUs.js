@@ -4,7 +4,7 @@ export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section className="mobile-btn" id="contact">
+      <section id="contact">
           <div className="row section-head">
             <div className="ten columns">
               <p style={{ color:"black", fontSize:"75px", position:"relative", left:"320px",}}>
