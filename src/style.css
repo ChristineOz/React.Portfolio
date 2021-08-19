@@ -2,6 +2,7 @@
     border-bottom-width: 25px;
     border-top-width: 25px;
     border-color: black;
+    position: fixed;
  }
     
  
@@ -29,7 +30,9 @@
  header:before {
     content: '';
     background: url('headerVideo.mp4');
-    height: 100%;
+    height: auto;
+    width:auto
+    
  }
  header .banner {
     
@@ -60,6 +63,8 @@
  header .banner-text h3 span,
  header .banner-text h3 a {
     color: #fff;
+    position:fixed;
+    background-attachment: fixed;
  }
  header .banner-text hr {
     width: 60%;
