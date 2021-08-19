@@ -31,7 +31,9 @@
   ],
   "description": "",
   "main": "App.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "compression-webpack-plugin": "^8.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChristineOz/React.Portfolio.git"
