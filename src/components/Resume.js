@@ -5,7 +5,7 @@ export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section className="mobile-btn" id="resume"style={{borderColor:'black',borderBottomWidth:25,borderTopWidth:25}}>
+      <section className="mobile-btn" id="resume">
 <div class="transbox">
   <br></br>
          <div className="row education">

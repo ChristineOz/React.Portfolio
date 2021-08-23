@@ -1,40 +1,37 @@
-import React from "react"
-import Card from "./Project.Card"
-import Fade from "react-reveal/Fade"
+import React, { Component } from 'react';
 
-import data from "../resumeData"
-
-const Work = () => {
-  return (
-    <div className="mobile-btn" className="section" id="work">
-      <div className="twelve columns collapsed"></div>
-      <div className="container">
-        <div className="work-wrapper">
-          <Fade bottom>
-            <h1 style={{ letterSpacing: '-2px',
-                               margin: '0 auto 18px auto',
-                              textShadow: '1px 3px 6px rgba(0, 0, 0, .8)',
-                              color:'white',
-                              fontSize:'40px'}}>Work</h1>
-          </Fade>
-
-          <div className="grid">
-            <Fade bottom cascade style={{fontSize:'10px'}}>
-              {data.projects.map((project, index) => (
-                <Card style={{fontSize:'10px'}}
-                  key={index}
-                  heading={project.title}
-                  paragraph={project.para}
-                  imgUrl={project.imageSrc}
-                  projectLink={project.url}
-                ></Card>
-              ))}
-            </Fade>
+export default class Porfolio extends Component {
+  render() {
+    let resumeData = this.props.resumeData;
+    return (
+      <section id="portfolio">
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h1>Check Out Some of My Works.</h1>
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          {
+            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+              return(
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-01">
+                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>{item.name}</h5>
+                          <p>{item.description}</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              )
+            })
+          }
           </div>
         </div>
       </div>
-    </div>
-  )
+  </section>
+        );
+  }
 }
-
-export default Work
