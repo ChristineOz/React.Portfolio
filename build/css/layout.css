@@ -27,7 +27,7 @@
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #bdb0b0;
+   background: #a08989;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -77,7 +77,7 @@
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background:url(../images/Resumebackgrd.jpg)center center;
+   background:url(../images/Resumebackgrd.jpg)fixed center;
    background-size: cover;
    background-attachment: fixed;
    padding-top: 90px;
@@ -151,8 +151,12 @@
 
 
 
+/* ------------------------------------------------------------------ */
+/* e. Portfolio Section
+/* ------------------------------------------------------------------ */
+
 #portfolio {
-   background: #bdb0b0;
+   background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -168,7 +172,7 @@
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: url(../images/Portfoliobackgrd.jpg);
+   background: #fff;
    overflow: hidden;
    position: relative;
 
@@ -317,7 +321,23 @@
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
-
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+   opacity: 0;
+   -webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+   transition: all 200ms ease-in-out;
+}
+/* content fadein */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+   opacity: 1;
+}
+/* content fadeout */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+   opacity: 0;
+}
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
@@ -467,7 +487,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background:url(../images/Footer.jpg) center center ;
+   background:url(../images/Footer.jpg) fixed center ;
    background-size:cover;
    background-attachment: fixed;
    padding-top: 96px;
