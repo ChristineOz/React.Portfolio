@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import headerVideo from '../../src/headerVideo.mp4';
-import '../../src/style.css';
+
 
 export default class Header extends Component {
   render() {
