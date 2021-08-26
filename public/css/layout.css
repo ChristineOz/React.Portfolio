@@ -400,9 +400,7 @@ ul#nav li.current a { color: #28a7e2; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
-   vertical-align: bottom;
-}
+
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
@@ -417,6 +415,7 @@ ul#nav li.current a { color: #28a7e2; }
    background:url(../images/Portfoliobackgrd.jpg)fixed center;
    background-size: cover;
    background-attachment: fixed;
+   
 }
 
 /* on hover */
