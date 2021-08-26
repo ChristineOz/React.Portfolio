@@ -61,7 +61,7 @@ header .banner {
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
-   position: fixed;
+   position: center;
 }
 
 header .banner-text { width: 100%; }
@@ -223,15 +223,11 @@ ul#nav li.current a { color: #28a7e2; }
 }
 #about .profile-pic {
    position: relative;
-   width: 400px;
+   width: 375px;
    height: 300px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
+
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
@@ -416,6 +412,11 @@ ul#nav li.current a { color: #28a7e2; }
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
+}
+.portfolio {
+   background:url(../images/Resumebackgrd.jpg)fixed center;
+   background-size: cover;
+   background-attachment: fixed;
 }
 
 /* on hover */
@@ -673,11 +674,11 @@ call-to-action .button {
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
-#contact h1 {
+#contact h1  {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: #050505;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -700,6 +701,9 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   color: black;
+   font-size: 75px;
+   
 }
 #contact .header-col { padding-top: 6px; }
 
