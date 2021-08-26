@@ -1,12 +1,17 @@
 {
   "name": "react.portfolio",
   "version": "1.0.0",
-  "description": "",
   "private": true,
   "dependencies": {
+    "effect": "^1.0.4",
     "react": "^16.6.0",
+    "react-collapsible": "^2.8.3",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react-player": "^2.9.0",
+    "react-scripts": "2.1.1",
+    "react-social-icons": "^5.6.0",
+    "react-typing": "^1.0.0",
+    "react-typing-effect": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
