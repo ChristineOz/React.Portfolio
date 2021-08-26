@@ -16,9 +16,9 @@ export default class ContactUs extends Component {
             <aside className="eigth columns footer-widgets">
               <div className="widget">
                     <SocialIcon style={{ position:"relative", textAlign:"center"}} url="https://github.com/ChristineOz" />
-                    <SocialIcon style={{position:"relative"}} url="https://www.linkedin.com/in/christine-osmak-42808376/" />
-                    <SocialIcon style={{ position:"relative"}} url="https://www.facebook.com/christine.osmak" />
-                    <SocialIcon style={{ position:"relative"}} url="https://www.instagram.com/christineozz/?hl=en"/>
+                    <SocialIcon style={{position:"relative", textAlign:"center"}} url="https://www.linkedin.com/in/christine-osmak-42808376/" />
+                    <SocialIcon style={{ position:"relative", textAlign:"center"}} url="https://www.facebook.com/christine.osmak" />
+                    <SocialIcon style={{ position:"relative", textAlign:"center"}} url="https://www.instagram.com/christineozz/?hl=en"/>
                 
               
               </div>
