@@ -7,8 +7,8 @@ export default class ContactUs extends Component {
       <section id="contact">
           <div className="row section-head">
             <div className="ten columns">
-              <p style={{ color:"black", fontSize:"50px", textAlign:"center"}}>
-              Follow Me
+              <p style={{ color:"orange", fontSize:"100px", position:"relative", fontFamily:'sans-serif ', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>
+              Follow Me...
               </p>
             </div>
           </div>
