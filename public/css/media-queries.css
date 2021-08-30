@@ -27,12 +27,14 @@
   ------------------------------------------------------------------ */
   header .banner { padding-bottom: 12px; }
   header .banner-text h1 {
-     font: 78px/1.1em 'opensans-bold', sans-serif;
+     font: 60px/1.1em 'opensans-bold', sans-serif;
      letter-spacing: -1px;      
+     background-attachment: fixed;
   }
   header .banner-text h3 {
      font: 17px/1.9em 'librebaskerville-regular', serif;
      width: 80%;
+     background-attachment: fixed;
   }
   header .banner-text hr {
      width: 65%;
@@ -60,23 +62,9 @@
   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
   #resume .main-col { padding-right: 5%; }   
 
-  /* Testimonials Section
-  ------------------------------------------------------------------- */
-  #testimonials .header-col h1:before {
-     font-size: 66px;
-     line-height: 66px;
-  }
-  #testimonials blockquote p {
-     font-size: 22px;
-     line-height: 46px;      
-  }
 
-   /* Call to Action Section
-  ------------------------------------------------------------------- */
-  #call-to-action .header-col h1:before {
-     font-size: 66px;
-     line-height: 66px;
-  }
+
+
 
   /* Contact Section
   ------------------------------------------------------------------- */
@@ -210,6 +198,12 @@
    /* scrolldown link */
   header .scrolldown { display: none; }
 
+  header h1 h3 {
+   background-image: url(".././../src/headerVideo.mp4");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  }
+
 
   /* About Section
   -------------------------------------------------------------------- */
@@ -253,14 +247,12 @@
   /* Portfolio Section
   /* ----------------------------------------------------------------- */
   #portfolio-wrapper .columns { margin-bottom: 40px; }
-  .popup-modal {	max-width: 85%; }
+  .popup-modal {	max-width: 25%; }
   #portfolio {
    background:url(../images/Portfoliobackgrd.jpg)fixed center;
    background-size: cover;
    background-attachment: fixed;
-   margin-top: 5px;
-    height: 180px;
-    margin-right: 8px;
+  
 
     background-size: cover;
 
