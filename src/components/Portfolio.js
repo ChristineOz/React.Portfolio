@@ -12,10 +12,10 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
+                <div className="columns portfolio-item" >
+                  <div className="item-wrap" style={{overflow:"scroll"}}>
                     <a href="#modal-01">
-                    <a href={item.link} style={{color:'black', fontWeight:'bolder', textAlign:'center'}}>EXPLORE
+                    <a href={item.link} style={{color:'red', fontWeight:'bolder', textAlign:'center', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>EXPLORE
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
