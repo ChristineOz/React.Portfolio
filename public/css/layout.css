@@ -248,16 +248,13 @@ ul#nav li.current a { color: #28a7e2; }
 
 #resume {
    background:url(../images/Resumebackgrd.jpg)fixed center;
-   background-repeat: no-repeat; 
-   background-position: center;
-   background-attachment: fixed;       
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
    background-size: cover;
-   height:100%;
-   width:100%; 
-}
+   background-attachment: fixed;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+   border-color: #333;
+   border-bottom-width: 50px;
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
