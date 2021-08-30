@@ -89,78 +89,8 @@ let resumeData = {
       },
     ],
     
-  // Work Section ------------------------
-  projects: [
-    {
-      title: "Progressive Budget", //Project Title - Add Your Project Title Here
-      para:
-        "The purpose of this assignment is to create a progressive budget application that allows users to manage financial activity while online or offline.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/Progressive.Budget.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://budgetco.herokuapp.com/",
-    },
-    {
-      title: "Flavor Saver", //Project Title - Add Your Project Title Here
-      para:
-        "Meal planning to make adulting much easier! Allows the user to view a recipe collection for each meal and add recipes to their weekly plan. User must be logged into view their collection and plan meals..", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/Flavor_Saver.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://tranquil-sea-86100.herokuapp.com/",
-    },
-    {
-      title: "E-commerce Backend", //Project Title - Add Your Project Title Here
-      para:
-        "This app is the backend portion of an E-Commerce website. Express.js was used for the server and MySQL for the database along with Sequelize as the ORM to run SQL models and queries. The SQL database includes tables for products, categories, tags, and product tags.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/E-commerce.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://github.com/ChristineOz/E-commerce.Backend.git",
-    },
-    {
-      title: "Workout Tracker", //Project Title - Add Your Project Title Here
-      para:
-        "TA fitness app that allows the user to view, create, and track daily workouts. The user is able to log multiple exercises in a given day and also go back and update the workout. The user is able to track the name, type, weight, sets, reps and duration of each exercise. Cardiovascular exercises show the distance traveled in miles.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/Workout.png",
-      //Project URL - Add Your Project Url Here
-      url: "coworkouttracker.herokuapp.com/",
-    },
-    {
-      title: "Weather Dashboard", //Project Title - Add Your Project Title Here
-      para:
-        "Enter in your city of choice and select search to view the current weather, temperature, humidity, wind speed, and UV Index for that city at the current time. Upon the search, the dashobard will also display the weather, temperature and hummidity forecast for the next five(5) days.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/weather.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://christineoz.github.io/Weather_Dashboard/",
-    },
-    {
-      title: "Note Taking App", //Project Title - Add Your Project Title Here
-      para:
-        "It's used to write notes that can either be deleted or saved through the application.",
-      imageSrc:
-        "images/note.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://co-note-taker.herokuapp.com/",
-    },
 
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
-  ],
+  
   "portfolio":[
     {
       "name":"Progressive Budget",
