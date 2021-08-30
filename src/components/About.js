@@ -28,7 +28,7 @@ export default class About extends Component {
                   margin: '0 auto 18px auto',
                  textShadow: '0px 1px 3px rgba(0, 0, 0, .8)',}}
                >About Me</h2>
-               <ReactTypingEffect style={{ color:'black', fontSize:'20px'}}
+               <ReactTypingEffect style={{ color:'orange', fontSize:'20px', textShadow: '0px 1px 3px rgba(0, 0, 0, .8)'}}
                text={
                  resumeData.aboutme
                }
