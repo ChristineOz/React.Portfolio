@@ -415,7 +415,7 @@ ul#nav li.current a { color: #28a7e2; }
    
 }
 #portfolio {
-   background:url(../images/Portfoliobackgrd.jpg)fixed center;
+   background:url(../images/Portfoliobackgrd.jpg)center center;
    background-size: cover;
    background-attachment: fixed;
    
