@@ -375,7 +375,6 @@ ul#nav li.current a { color: #28a7e2; }
 	transition: opacity 0.3s ease-in-out;
 
    background: black repeat;
-   background-attachment: fixed;
 }
 .portfolio-item .item-wrap .link-icon h5 p {
    display: block;
@@ -426,7 +425,9 @@ ul#nav li.current a { color: #28a7e2; }
 .portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
-	filter:alpha(opacity=100);
+   filter:alpha(opacity=100);
+   background: black repeat;
+   display: block;
 }
 .portfolio-item:hover .link-icon {
    opacity: 1;

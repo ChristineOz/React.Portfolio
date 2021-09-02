@@ -13,18 +13,18 @@ export default class Porfolio extends Component {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item" >
-                  <div className="item-wrap" style={{overflow:"scroll"}}>
+                  <div className="item-wrap" >
                     <a href="#modal-01">
-                    <a href={item.link} style={{color:'white', fontWeight:'bolder', textAlign:'center', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>☆
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
+                      <button>
+                    <a href={item.link} style={{color:'white', fontWeight:'bolder', textAlign:'center', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>Explore</a></button>
+                      <div className="overlay" style={{overflow:"scroll"}}>
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                          
                         </div>
                       </div>
-                    </a>
+                  
                     </a>
                   </div>
                 </div>
