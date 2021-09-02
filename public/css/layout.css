@@ -421,6 +421,11 @@ ul#nav li.current a { color: #28a7e2; }
    
 }
 
+.imgurl {
+   width: 25%;
+   height: 25%
+}
+
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;

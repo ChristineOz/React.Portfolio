@@ -95,25 +95,25 @@ let resumeData = {
     {
       "name":"Progressive Budget",
       "description":"The purpose of this assignment is to create a progressive budget application that allows users to manage financial activity while online or offline.",
-      "imgurl":"images/portfoliowork.png",
+      "imgurl":"images/Progressive.Budget.png",
       "link":"https://budgetco.herokuapp.com/"
     },
     {
       "name":"E-commerce Backend",
       "description":"This app is the backend portion of an E-Commerce website. Express.js was used for the server and MySQL for the database along with Sequelize as the ORM to run SQL models and queries. The SQL database includes tables for products, categories, tags, and product tags.",
-      "imgurl":"images/portfoliowork.png",
+      "imgurl":"images/E-commerce.png",
       "link":"https://github.com/ChristineOz/E-commerce.Backend.git"
     },
     {
       "name":"Flavor Saver",
       "description":"Meal planning to make adulting much easier! Allows the user to view a recipe collection for each meal and add recipes to their weekly plan. User must be logged into view their collection and plan meals..", 
-      "imgurl":"images/portfoliowork.png",
+      "imgurl":"images/Flavor_Saver.png",
       "link": "https://tranquil-sea-86100.herokuapp.com/",
     },
     {
       "name":"Workout Tracker",
       "description":"TA fitness app that allows the user to view, create, and track daily workouts.",
-      "imgurl":"images/portfoliowork.png",
+      "imgurl":"images/Workout.png",
       "link":"https://coworkouttracker.herokuapp.com/"
     }
   ],
