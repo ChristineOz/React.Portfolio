@@ -14,7 +14,7 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item" >
                   <div className="item-wrap" >
-                    <a href="#modal-01">
+                    <a href={item.link}>
                       <button>
                     <a href={item.link} style={{color:'white', fontWeight:'bolder', textAlign:'center', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>Explore</a></button>
                       <div className="overlay" style={{overflow:"scroll"}}>
