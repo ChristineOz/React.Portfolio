@@ -16,6 +16,10 @@
      letter-spacing: -1px;
      margin: 0 auto 12px auto;
   }
+  .item-img{
+     width:fit-content;
+     height:fit-content
+  }
 
 }
 
@@ -60,16 +64,7 @@
   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
   #resume .main-col { padding-right: 5%; }   
 
-  /* Testimonials Section
-  ------------------------------------------------------------------- */
-  #testimonials .header-col h1:before {
-     font-size: 66px;
-     line-height: 66px;
-  }
-  #testimonials blockquote p {
-     font-size: 22px;
-     line-height: 46px;      
-  }
+
 
    /* Call to Action Section
   ------------------------------------------------------------------- */
@@ -224,6 +219,17 @@
 
   /* Resume Section
   --------------------------------------------------------------------- */
+  @media only screen and (max-width: 767px) {
+  #resume {
+   background-color: slategray ;
+   background-size: cover;
+   background-attachment: fixed;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+   border-color: #333;
+   border-bottom-width: 50px;
+}
   #resume .header-col {
      padding-top: 0;
      margin-bottom: 48px;
@@ -233,7 +239,8 @@
   #resume .main-col { padding-right: 30px; }
   #resume h3, #resume .info { text-align: center; }
      
-  .bars { width: 100%; }
+  .bars { width: 100%; } 
+}
 
 
   /* Call To Action Section
