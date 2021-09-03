@@ -15,12 +15,13 @@ export default class Porfolio extends Component {
                 <div className="columns portfolio-item" >
                   <div className="item-wrap" >
                     <a href={item.link}>
-                    <img src={`${item.imgurl}`} className="item-img"/>
+                    
                       <button>
                     <a href={item.link} style={{color:'white', fontWeight:'bolder', textAlign:'center', textShadow:'-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,	1px 1px 0 #000'}}>Explore</a></button>
                       <div className="overlay" style={{overflow:"scroll"}}>
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
+                          <img src={`${item.imgurl}`} className="item-img"/>
                           <p>{item.description}</p>
                          
                         </div>
