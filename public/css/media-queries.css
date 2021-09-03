@@ -21,7 +21,7 @@
      height:fit-content
   }
 
-  
+
 
 }
 
@@ -221,7 +221,7 @@
 
   /* Resume Section
   --------------------------------------------------------------------- */
-  @media only screen and (max-width: 767px) {
+ 
   #resume {
    background-color: slategray ;
    background-size: cover;
@@ -242,7 +242,7 @@
   #resume h3, #resume .info { text-align: center; }
      
   .bars { width: 100%; } 
-}
+
 
 
   /* Call To Action Section

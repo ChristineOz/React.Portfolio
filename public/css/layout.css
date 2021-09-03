@@ -247,7 +247,7 @@ ul#nav li.current a { color: #28a7e2; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background:url(../images/Resumebackgrd.jpg)fixed center;
+   background:url(../images/Resumebackgrd.jpg)no-repeat center fixed;
    background-size: cover;
    background-attachment: fixed;
    padding-top: 90px;
@@ -416,7 +416,7 @@ ul#nav li.current a { color: #28a7e2; }
    
 }
 #portfolio {
-   background:url(../images/Portfoliobackgrd.jpg)center center;
+   background:url(../images/Portfoliobackgrd.jpg) no-repeat center fixed;
    background-size: cover;
    background-attachment: fixed;
    
@@ -630,8 +630,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background:url(../images/Footer.jpg) fixed center ;
-   background-size:cover;
+   background:url(../images/Footer.jpg) no-repeat center fixed;
+   background-size: cover;
    background-attachment: fixed;
    padding-top: 96px;
    padding-bottom: 102px;
